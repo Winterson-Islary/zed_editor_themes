@@ -93,7 +93,43 @@
                 "terminal.ansi.bright_cyan": "#71e4f6ff",
                 "terminal.ansi.bright_white": "#ffffff",
 
+                "conflict": "#ff5555ff",
+                "conflict.background": "#00000000",
+                "conflict.border": "#ff6a6aff",
+
+                "created": "#50fa7bff",
+                "created.background": "#00000000",
+                "created.border": "#52ff8bff",
+
+                "deleted": "#ff5555ff",
+                "deleted.background": "#00000000",
+                "deleted.border": "#ff6a6aff",
+
+                "error": "#ff5555ff",
+                "error.background": "#00000000",
+                "error.border": "#ff6a6aff",
+
+                "warning": "#f1fa8cff",
+                "warning.background": "#00000000",
+                "warning.border": "#e6da74ff",
+
+                "info": "#8be9fdff",
+                "info.background": "#00000000",
+                "info.border": "#71d7eaff",
+
+                "hint": "#50fa7bff",
+                "hint.background": "#00000000",
+                "hint.border": "#42e86aff",
+
                 "link_text.hover": "#7c3aedff",
+
+                "players": [
+                    {
+                        "cursor": "#ffffffff",
+                        "background": "#ffffffff",
+                        "selection": "#ffffff22"
+                    }
+                ],
 
                 "syntax": {
                     "comment": { "color": "#6272a4ff", "font_style": "italic" },
