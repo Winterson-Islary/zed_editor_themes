@@ -1,0 +1,160 @@
+{
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+    "name": "Dim Night Elevate – Monokai Carbon",
+    "author": "Winterson",
+    "themes": [
+        {
+            "name": "Dim Night Elevate – Monokai Carbon",
+            "appearance": "dark",
+            "style": {
+                "border": "#0d0d0dff",
+                "border.variant": "#101010ff",
+                "border.focused": "#7c3aedff",
+                "border.selected": "#7c3aedff",
+                "border.transparent": "#00000000",
+                "border.disabled": "#1a1a1aff",
+
+                "elevated_surface.background": "#0b0b0bff",
+                "surface.background": "#0b0b0bff",
+                "background": "#101010ff",
+
+                "element.background": "#0b0b0bff",
+                "element.hover": "#0e0e0eff",
+                "element.active": "#1a1a1aff",
+                "element.selected": "#1a1a1aff",
+                "element.disabled": "#0b0b0bff",
+
+                "text": "#e1e4e8ff",
+                "text.muted": "#959da5ff",
+                "text.placeholder": "#727b86ff",
+                "text.disabled": "#727b86ff",
+                "text.accent": "#7c3aedff",
+
+                "icon": "#e1e4e8ff",
+                "icon.muted": "#959da5ff",
+                "icon.disabled": "#727b86ff",
+                "icon.placeholder": "#727b86ff",
+                "icon.accent": "#7c3aedff",
+
+                "status_bar.background": "#0b0b0bff",
+                "title_bar.background": "#0b0b0bff",
+                "title_bar.inactive_background": "#0b0b0bff",
+                "toolbar.background": "#101010ff",
+
+                "tab_bar.background": "#0b0b0bff",
+                "tab.inactive_background": "#0b0b0bff",
+                "tab.active_background": "#0e0e0eff",
+
+                "search.match_background": "#3392ff44",
+                "panel.background": "#0b0b0bff",
+                "panel.focused_border": "#7c3aedff",
+
+                "scrollbar.thumb.background": "#727b8633",
+                "scrollbar.thumb.hover_background": "#727b8644",
+                "scrollbar.thumb.border": "#0d0d0dff",
+                "scrollbar.track.background": "#00000000",
+                "scrollbar.track.border": "#0d0d0dff",
+
+                "editor.foreground": "#e1e4e8ff",
+                "editor.background": "#101010ff",
+                "editor.gutter.background": "#101010ff",
+                "editor.subheader.background": "#0b0b0bff",
+                "editor.active_line.background": "#1a1a1aff",
+                "editor.highlighted_line.background": "#1a1a1aff",
+                "editor.line_number": "#4d4d4dff",
+                "editor.active_line_number": "#e1e4e8ff",
+                "editor.hover_line_number": "#d4d4d4ff",
+                "editor.invisible": "#444d56ff",
+                "editor.wrap_guide": "#2f363d33",
+                "editor.active_wrap_guide": "#444d5644",
+                "editor.document_highlight.read_background": "#17e5e633",
+                "editor.document_highlight.write_background": "#3392ff44",
+
+                "terminal.background": "#101010ff",
+                "terminal.foreground": "#d1d5daff",
+                "terminal.bright_foreground": "#e1e4e8ff",
+                "terminal.dim_foreground": "#727b86ff",
+
+                "terminal.ansi.black": "#0b0b0bff",
+                "terminal.ansi.red": "#f87171ff",
+                "terminal.ansi.green": "#34d058ff",
+                "terminal.ansi.yellow": "#f8ca73ff",
+                "terminal.ansi.blue": "#7c3aedff",
+                "terminal.ansi.magenta": "#f472b6ff",
+                "terminal.ansi.cyan": "#55d9c9ff",
+                "terminal.ansi.white": "#e1e4e8ff",
+                "terminal.ansi.bright_black": "#4d4d4dff",
+                "terminal.ansi.bright_red": "#ff5370ff",
+                "terminal.ansi.bright_green": "#4ade80ff",
+                "terminal.ansi.bright_yellow": "#fdce75ff",
+                "terminal.ansi.bright_blue": "#8b5cf6ff",
+                "terminal.ansi.bright_magenta": "#c792eaff",
+                "terminal.ansi.bright_cyan": "#71e4f6ff",
+                "terminal.ansi.bright_white": "#ffffff",
+
+                "link_text.hover": "#7c3aedff",
+
+                "syntax": {
+                    "comment": { "color": "#727072ff", "font_style": "italic" },
+
+                    "keyword": { "color": "#ab9df2ff" },
+                    "storage": { "color": "#ab9df2ff" },
+
+                    "type": { "color": "#78dce8ff" },
+
+                    "number": { "color": "#ffd866ff" },
+                    "constant": { "color": "#ffd866ff" },
+
+                    "string": { "color": "#a9dc76ff" },
+
+                    "variable": { "color": "#ffffffff" },
+
+                    "property": { "color": "#78dce8ff" },
+
+                    "function": { "color": "#ff6188ff" },
+
+                    "operator": { "color": "#e1e4e8ff" },
+
+                    "tag": { "color": "#ff6188ff" },
+                    "attribute": { "color": "#ffd866ff" },
+                    "boolean": { "color": "#ffd866ff" },
+
+                    "punctuation": { "color": "#e1e4e8ff" },
+                    "punctuation.bracket": { "color": "#e1e4e8ff" },
+                    "punctuation.delimiter": { "color": "#e1e4e8ff" },
+
+                    "string.regex": { "color": "#78dce8ff" },
+                    "string.escape": { "color": "#78dce8ff" },
+
+                    "text.literal": { "color": "#a9dc76ff" },
+
+                    "link_text": {
+                        "color": "#ab9df2ff",
+                        "font_style": "italic"
+                    },
+                    "link_uri": { "color": "#78dce8ff" },
+
+                    "emphasis": {
+                        "color": "#ff6188ff",
+                        "font_style": "italic"
+                    },
+                    "emphasis.strong": {
+                        "color": "#ff6188ff",
+                        "font_weight": 700
+                    },
+
+                    "title": { "color": "#e1e4e8ff", "font_weight": 700 },
+
+                    "variable.readonly": { "color": "#dcdcdcff" },
+                    "variable.parameter": { "color": "#78dce8ff" },
+
+                    "decorator": {
+                        "color": "#ab9df2ff",
+                        "font_style": "italic"
+                    },
+                    "namespace": { "color": "#dcdcdcff" }
+                }
+            }
+        }
+    ]
+}
