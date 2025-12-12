@@ -93,6 +93,34 @@
                 "terminal.ansi.bright_cyan": "#a0d6a7ff",
                 "terminal.ansi.bright_white": "#ffffffff",
 
+                "conflict": "#e67e80ff",
+                "conflict.background": "#00000000",
+                "conflict.border": "#ff6a6aff",
+
+                "created": "#a7c080ff",
+                "created.background": "#00000000",
+                "created.border": "#46e06aff",
+
+                "deleted": "#e67e80ff",
+                "deleted.background": "#00000000",
+                "deleted.border": "#ff6a6aff",
+
+                "error": "#e67e80ff",
+                "error.background": "#00000000",
+                "error.border": "#ff6a6aff",
+
+                "warning": "#dbbc7fff",
+                "warning.background": "#00000000",
+                "warning.border": "#e3c068ff",
+
+                "info": "#83c092ff",
+                "info.background": "#00000000",
+                "info.border": "#3ac6e6ff",
+
+                "hint": "#83c092ff",
+                "hint.background": "#00000000",
+                "hint.border": "#3ae69aff",
+
                 "link_text.hover": "#a7c080ff",
 
                 "players": [
@@ -127,7 +155,6 @@
                     "tag": { "color": "#e67e80ff" },
 
                     "attribute": { "color": "#dbbc7fff" },
-
                     "boolean": { "color": "#dbbc7fff" },
 
                     "punctuation": { "color": "#e1dfc4ff" },
